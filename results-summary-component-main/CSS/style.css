@@ -1,0 +1,229 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: bisque;
+  }
+
+  .sub-container {
+    display: flex;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+  }
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.sub-container {
+  background-color: rgb(253, 244, 244);
+  border: 1px;
+  border-radius: 16px;
+}
+
+.first-box {
+  background-color: hsl(252, 100%, 67%);
+  border-radius: 15px;
+  padding: 30px;
+  width: 170px;
+  height: 15rem;
+  max-width: 10rem;
+}
+
+.result {
+  color: rgb(207, 188, 240);
+  font-size: 13px;
+}
+
+.total {
+  color: white;
+  font-size: 40px;
+  margin: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.numbers {
+  background-color: hsla(256, 72%, 46%, 1);
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin: 20px;
+}
+
+.total {
+  font-size: 11px;
+  font-weight: 100;
+  color: rgb(144, 107, 253);
+}
+
+.word {
+  color: white;
+}
+
+.remark {
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.second-box {
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 20px;
+  width: 170px;
+  height: 15rem;
+  max-width: 10rem;
+  text-align: left;
+}
+
+.header {
+  color: hsl(224, 30%, 27%);
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.One {
+  background-color: hsla(0, 71%, 80%, 0.2);
+  border-radius: 5px;
+  border-top-left-radius: 10px solid black;
+  width: 10rem;
+  height: 15px;
+  margin-top: 0.5rem;
+  margin-right: 15rem;
+  padding: 0.6rem;
+}
+
+.mark {
+  margin-left: 45px;
+}
+
+.R {
+  color: rgb(233, 61, 61);
+  font-size: 10px;
+  font-weight: 10px;
+  margin-left: 3px;
+  margin-bottom: 10px;
+}
+
+.score {
+  margin-left: 15px;
+  text-align: right;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.Overall {
+  font-size: 10px;
+  color: hsl(222, 6%, 35%);
+}
+
+.Two {
+  background-color: hsla(56, 70%, 75%, 0.2);
+  border-radius: 5px;
+  width: 10rem;
+  height: 15px;
+  margin-top: 0.5rem;
+  margin-right: 10rem;
+  padding: 0.6rem;
+}
+
+.mark2 {
+  margin-left: 47px;
+}
+
+.M {
+  color: rgb(124, 124, 42);
+  text-align: right;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.Three {
+  background-color: rgb(209, 241, 209);
+  border-radius: 5px;
+  width: 10rem;
+  height: 15px;
+  margin-top: 0.5rem;
+  margin-right: 10rem;
+  padding: 0.6rem;
+}
+
+.mark3 {
+  margin-left: 56px;
+}
+
+.V {
+  color: hsl(166, 100%, 37%);
+  text-align: right;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.Fourth {
+  background-color: hsl(234, 95%, 92%);
+  border-radius: 5px;
+  width: 10rem;
+  height: 15px;
+  margin-top: 0.5rem;
+  margin-right: 10rem;
+  padding: 0.6rem;
+}
+
+.mark4 {
+  margin-left: 58px;
+}
+
+.Vis {
+  color: blue;
+  text-align: space-around;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: hsl(252, 90%, 65%);
+  color: white;
+  border: 1px;
+  border-radius: 15px;
+  margin: 20px;
+  margin-left: -1px;
+  padding: 0.65rem;
+  width: 180px;
+  font-size: 10px;
+}
