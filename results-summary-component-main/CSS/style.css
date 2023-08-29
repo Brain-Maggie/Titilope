@@ -49,6 +49,10 @@ body {
   max-width: 10rem;
 }
 
+img {
+  width: 12px;
+}
+
 .result {
   color: rgb(207, 188, 240);
   font-size: 13px;
